@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS genre (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS actor (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS movie (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    genre_id INTEGER,
+    FOREIGN KEY (genre_id) REFERENCES genre(id)
+);
