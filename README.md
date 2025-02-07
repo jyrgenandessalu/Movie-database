@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 ### Clone the Repository
 Clone the repository to your local machine:
 
- - git clone https://gitea.kood.tech/jurgenandessalu/kmdb.git
+ - git clone https://github.com/jyrgenandessalu/Movie-database.git
 
 ### Build the program
 Navigate to the project directory and build the program:
